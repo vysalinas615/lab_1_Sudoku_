@@ -20,3 +20,4 @@ Runtime/Time Complexity:
 
 I think the runtime would have to be O(n^81) or O(n^(9*9)) since in the nested for loop there are 9 rows/9 columns. For each row or column there are 9 possible numbers that can be tried in an empty space, so by iterating through these columns or rows it would produce 9 exececutions. The same would go for the outer for loop therefore making (9*9) executions. So I think the answer should be O(n^(9*9))
 
+For the space complexity, it has to store a 9*9 grid or whatever size the user wants I guess so it should be O(n*n)? I used 9x9 as the size for the board I tested so it would probably be O(9*9) for my board.
